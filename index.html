@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <!--Iconos de bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!--Javascript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="icon" href="assets/physics.png" type="image">
+
+    <title>Mi portafolio Tecnolochicas Pro</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <!--Se tiene que poner todo dentro del container para que se pueda modificar con bootstrap-->
+            <header
+                class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+                <div class="col-md-3 mb-2 mb-md-0">
+                    <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+                        <svg class="bi" width="40" height="32" role="img" aria-label="Bootstrap">
+                            <use xlink:href="#bootstrap"></use>
+                        </svg>
+                    </a>
+                </div>
+
+                <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="#" class="nav-link px-2 link-secondary text-info-emphasis">Home</a></li>
+                    <li><a href="#proyectos" class="nav-link px-2 text-info-emphasis">Experiencia previa</a></li>
+                    <li><a href="#logros_sobremi" class="nav-link px-2 text-info-emphasis">Sobre mi</a></li>
+                    <li><a href="#proyectos_progra" class="nav-link px-2 text-info-emphasis">Proyectos</a></li>
+                    <li><a href="https://www.linkedin.com/in/carolina-torres-garc%C3%ADa-953406b0/" class="nav-link px-2 text-info-emphasis" target="_blank">Contacto</a></li>
+                </ul>
+
+
+            </header>
+        </div>
+    </header>
+
+    <main>
+        <!--Sección principal/overview de todo lo demás-->
+        <div class="container w-100">
+            <section id="carrusel">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/rayo_catodico.jpg" class="d-block w-100"
+                                alt="fondo-carrousel background-repeat: no-repeat;">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>Experiencia en laboratorio de Física</h1>
+                                <p>En la carrera me di cuenta de que se me da mucho el trabajo en laboratorio así que
+                                    espero pronto poder aplicar mis conocimientos más a fondo ya sea a nivel de posgrado
+                                    o en el ámbito docente.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/trofeo_2.jpg" class="d-block w-100" alt="fondo-kung fu torneo">
+                            <div class="carousel-caption d-none d-md-block  text-black text-shadow-3">
+                                <h1>Entrenadora de Kung Fu</h1>
+                                <h5>En mis últimos semestres y ya como egresada estuve a cargo de continuar con los
+                                    entrenamientos delequipo de Kung Fu de la FCFM y logramos 2 campeonatos.</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/clase_1_aniela.png" class="d-block w-100 " alt="fondo-clase matematicas">
+                            <div class="carousel-caption d-none d-md-block  text-white text-shadow-1">
+                                <h1>Maestra de matemáticas</h1>
+                                <p>Actualmente doy clases de matemáticas a distintos grados en preparatoria. En
+                                    particular las que más me gustan son las de Bachillerato Internacional ya que tengo
+                                    mucha libertad creativa c:</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+                </div>
+            </section>
+        </div>
+
+
+        <!--Sección de proyectos de programación-->
+        <div class="container" id="proyectos_progra">
+            <div class="container px-4 py-5" id="icon-grid">
+                <h2 class="pb-2 border-bottom">Proyectos</h2>
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+                    <div class="col d-flex align-items-start">
+                        
+                        <svg class="bi browser-chrome flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                            <use xlink:href="#bootstrap"></use>
+                        </svg>
+                        <div>
+                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Clon de Google</h3>
+                            <p>Proyecto para Bootcamp Tecnolochicas Pro para practicar haciendo una réplica
+                                personalizada de la interfaz de Google usando HTML y CSS</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                            <use xlink:href="#cpu-fill"></use>
+                        </svg>
+                        <div>
+                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Emprendimiento personal</h3>
+                            <p>Página web en HTML y CSS con información de mi emprendimiento, Stellium Sweets. </p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                            <use xlink:href="#calendar3"></use>
+                        </svg>
+                        <div>
+                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Portafolio Personal</h3>
+                            <p>Página web como proyecto para certificación como Front-end developer para Bootcamp
+                                Tecnolochicas Pro.</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                            <use xlink:href="#home"></use>
+                        </svg>
+                        <div>
+                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Modelo de Ising 2D</h3>
+                            <p>Simulación en Python para resolver problemas de transición de fase basados en el modelo
+                                estadístico de Ising.</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                            <use xlink:href="#speedometer2"></use>
+                        </svg>
+                        <div>
+                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Resolución de problemas de cálculo</h3>
+                            <p>Pogramas en FORTRAN y Python destinados a la resolución de problemas de cálculo basados
+                                en métodos numéricos</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                            <use xlink:href="#toggles2"></use>
+                        </svg>
+                        <div>
+                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Movimiento de partículas</h3>
+                            <p>Programas en Python de simulación del movimiento de n partículas para aplicaciones de
+                                nanotecnología</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                            <use xlink:href="#geo-fill"></use>
+                        </svg>
+                        <div>
+                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis"> Física Estadística </h3>
+                            <p>Proyecto final para la materia de Física Computacional utilizando un problema de
+                                movimiento aleatorio comparando código en FORTRAN y Python</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                        <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
+                            <use xlink:href="#tools"></use>
+                        </svg>
+                        <div>
+                            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Guitar Hero</h3>
+                            <p>Proyecto escolar de programación de un videojuego simulando Guitar Hero</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Sección de experiencia laboral y profesional-->
+        <div class="container w-100">
+            <section id="proyectos">
+                <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                            style="background-image: url('assets/classroom_tcgen1.jpeg');background-repeat: no repeat; background-size: cover;">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-4">
+                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Tecnolochicas</h3>
+                                <ul class="d-flex list-unstyled mt-auto">
+                                    <li class="me-auto">
+                                        <img src="assets/virtual.png" alt="Virtual" width="32" height="32"
+                                            class="rounded-circle border border-white">
+                                    </li>
+                                    <li class="d-flex align-items-center me-3">
+                                        <svg class="bi me-2" width="1em" height="1em">
+                                            <use xlink:href="#geo-fill"></use>
+                                        </svg>
+                                        <small>Instructora</small>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <svg class="bi me-2" width="1em" height="1em">
+                                            <use xlink:href="#calendar3"></use>
+                                        </svg>
+                                        <small>CIDEB</small>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                            style="background-image: url('assets/clase_2_galvan.png');background-repeat: no repeat; background-size: cover;">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Matemáticas Bachillerato Internacional
+                                </h3>
+                                <ul class="d-flex list-unstyled mt-auto">
+                                    <li class="me-auto">
+                                        <img src="assets/virtual.png" alt="Virtual" width="32" height="32"
+                                            class="rounded-circle border border-white">
+                                    </li>
+                                    <li class="d-flex align-items-center me-3">
+                                        <svg class="bi me-2" width="1em" height="1em">
+                                            <use xlink:href="#geo-fill"></use>
+                                        </svg>
+                                        <small>Profesora</small>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <svg class="bi me-2" width="1em" height="1em">
+                                            <use xlink:href="#calendar3"></use>
+                                        </svg>
+                                        <small>CIDEB</small>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                            style="background-image: url('assets/bisontes.jpg');background-repeat: no repeat; background-size: cover;">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Artes Marciales</h3>
+                                <ul class="d-flex list-unstyled mt-auto">
+                                    <li class="me-auto">
+                                        <img src="assets/virtual.png" alt="Virtual" width="32" height="32"
+                                            class="rounded-circle border border-white">
+                                    </li>
+                                    <li class="d-flex align-items-center me-3">
+                                        <svg class="bi me-2" width="1em" height="1em">
+                                            <use xlink:href="#geo-fill"></use>
+                                        </svg>
+                                        <small>Kung Fu</small>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <svg class="bi me-2" width="1em" height="1em">
+                                            <use xlink:href="#calendar3"></use>
+                                        </svg>
+                                        <small>Ng Ga-Kuen</small>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+                <!--Sección de logros o sobre mi-->
+                <div class="container w-100">
+                    <section id="logros_sobremi">
+                        <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+                            <div class="col d-flex flex-column align-items-start gap-2">
+                                <h2 class="fw-bold text-body-emphasis">Reconocimientos y logros</h2>
+                                <p class="text-body-secondary"> En esta sección pueden conocerme tanto por logros que se me han
+                                    dado
+                                    en el aspecto académico y por actividades extracurriculares. Además de estas verificables
+                                    están las
+                                    llamadas <i> softskills</i> que me dejaron estas experiencias.</p>
+                                <a href="#" class="btn btn-primary btn-lg"> Saber más</a>
+                            </div>
+        
+                            <div class="col">
+                                <div class="row row-cols-1 row-cols-sm-2 g-4">
+                                    <div class="col d-flex flex-column gap-2">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                                            <svg class="bi" width="1em" height="1em">
+                                                <use xlink:href="#collection"></use>
+                                            </svg>
+                                        </div>
+                                        <h4 class="fw-semibold mb-0 text-body-emphasis"> Idiomas </h4>
+                                        <p class="text-body-secondary"> He obtenido becas por desempeño en inglés y francés.
+                                            Para
+                                            esta
+                                            última me otorgaron una beca de parte del Instituto de la Juventud de Nuevo León
+                                            para ir
+                                            a
+                                            un voluntariado como intercambio cultural debido a que obtuve uno de los promedios
+                                            más
+                                            altos
+                                            de la generación que se graduó a nivel Estatal.</p>
+                                    </div>
+        
+                                    <div class="col d-flex flex-column gap-2">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                                            <svg class="bi" width="1em" height="1em">
+                                                <use xlink:href="#gear-fill"></use>
+                                            </svg>
+                                        </div>
+                                        <h4 class="fw-semibold mb-0 text-body-emphasis">Física y matemáticas</h4>
+                                        <p class="text-body-secondary">En esta sección puse los logros que yo considero más
+                                            importantes
+                                            que tuve dentro de la carrera y en investigaciones que estoy trabajando actualmente.
+                                        </p>
+                                    </div>
+        
+                                    <div class="col d-flex flex-column gap-2">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                                            <svg class="bi" width="1em" height="1em">
+                                                <use xlink:href="#speedometer"></use>
+                                            </svg>
+                                        </div>
+                                        <h4 class="fw-semibold mb-0 text-body-emphasis">Deportivos</h4>
+                                        <p class="text-body-secondary"> Practico Kung Fu desde el 2014. En estos años he logrado
+                                            avanzar
+                                            de grado y también he participado en diversas competencias. Además, durante un
+                                            tiempo
+                                            fui la
+                                            entrenadora encargada de la Facultad de Ciencias Físico Matemáticas.</p>
+                                    </div>
+        
+                                    <div class="col d-flex flex-column gap-2">
+                                        <div
+                                            class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                                            <svg class="bi" width="1em" height="1em">
+                                                <use xlink:href="#table"></use>
+                                            </svg>
+                                        </div>
+                                        <h4 class="fw-semibold mb-0 text-body-emphasis">Proyectos sociales</h4>
+                                        <p class="text-body-secondary"> En preparatoria estuve en el Bachillerato Internacional,
+                                            donde
+                                            adquirí cariño por hacer voluntariado. Tiempo después estuve trabajando en un
+                                            proyecto
+                                            para
+                                            la Cruz Rosa y fui cofundadora del Club Interact San Nicolás Bicentenario, que busca
+                                            incentivar a jóvenes a que participen en proyectos sociales.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+    </main>
+    <div class="container_footer">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Carolina Torres, Bootcamp Tecnolochicas
+                    PRO.</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi bi-twitter" width="24"
+                            height="24">
+                            <use xlink:href="#twitter"></use>
+                        </svg></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi bi-facebook" width="24"
+                            height="24">
+                            <use xlink:href="#instagram"></use>
+                        </svg></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#facebook"></use>
+                        </svg></a></li>
+            </ul>
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex text-dark">
+                <a class="fs-2 text-dark" target="_blank" href="https://twitter.com/Hey_Im_Caro">
+                    <li class="bi bi-twitter-x ms-3"></li>
+                </a>
+                <a class="fs-2 text-dark" target="_blank"
+                    href="https://www.facebook.com/caro.torres.garcia?mibextid=ZbWKwL">
+                    <li class="bi bi-facebook ms-3"></li>
+                </a>
+                <a class="fs-2 text-dark" target="_blank"
+                    href="https://instagram.com/itscarotorres?utm_source=qr&igshid=MThlNWY1MzQwNA==">
+                    <li class="bi bi-instagram ms-3"></li>
+                </a>
+                <a class="fs-2 text-dark" target="_blank" href="https://github.com/carotorresg">
+                    <li class="bi bi-github ms-3"></li>
+                </a>
+            </ul>
+        </footer>
+    </div>
+    <!--El link que une mi código de javascript siempre va al último pero antes de que se acabe el body -->
+    <script src="script.js"> </script>
+</body>
+
+</html>
